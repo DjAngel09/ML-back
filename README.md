@@ -57,7 +57,3 @@ Run the unit tests
 ```bash
 npm run test
 ```
-
-## License
-
-MIT (c) Benjamin Manuel
