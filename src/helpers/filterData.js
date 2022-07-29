@@ -21,7 +21,7 @@ const filterProducts = (data) => {
             free_shipping: product.shipping.free_shipping,
             city: product.address.city_name
         }));
-        return products;
+        return products.splice(0, 4);
     }
 
     const result = {
